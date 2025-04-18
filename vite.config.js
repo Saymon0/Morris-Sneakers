@@ -14,4 +14,7 @@ export default defineConfig({
       '@': fileURLToPath(new URL('./src', import.meta.url)),
     },
   },
+  preview: {
+    allowedHosts: ['morrissneakers-frontend-ixb29m-e1029e-195-133-194-39.traefik.me'],
+  },
 })
