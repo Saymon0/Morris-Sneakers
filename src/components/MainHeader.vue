@@ -10,7 +10,7 @@ defineProps({
     <RouterLink to="/">
       <div class="flex flex-col gap-1">
         <p class="text-4xl select-none font-medium">
-          Morris<span class="text-sky-800">Sneakers</span>
+          Morris<span class="text-sky-800"> Sneakers</span>
         </p>
         <div>
           <p class="text-slate-500 text-lg">Весь мир покупает в нашем магазине</p>
