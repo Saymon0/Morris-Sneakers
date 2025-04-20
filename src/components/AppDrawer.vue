@@ -30,7 +30,7 @@ const totalTax = computed(() => Math.round((props.totalPrice * TAX) / 100))
 const createOrder = async () => {
   try {
     isCreatingOrder.value = true
-    const { data } = await axios.post('https://4cb01a3f49d4155a.mokky.dev/orders', {
+    const { data } = await axios.post('https://f45bb7cdceaa1ea9.mokky.dev/orders', {
       items: cart.value,
       totalPrice: props.totalPrice,
     })
